@@ -72,6 +72,8 @@ file:
 
     template: mason2
 
+The default template extension is ".m".
+
 =head1 CONFIGURATION
 
 Parameters can also be passed to C<< Mason->new >> via the configuration file,
