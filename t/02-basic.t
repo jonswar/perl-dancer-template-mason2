@@ -10,7 +10,7 @@ my $engine;
 eval { $engine = Dancer::Template::Mason2->new };
 is $@, '', "Dancer::Template::Mason engine created";
 
-my $template = join( "/", $Bin, 'views', 'index.m' );
+my $template = join( "/", $Bin, 'views', 'index.mc' );
 my $result = $engine->render(
     $template,
     {

@@ -20,7 +20,7 @@ sub init {
     $_engine = Mason->new(%$config);
 }
 
-sub default_tmpl_ext { "m" }
+sub default_tmpl_ext { "mc" }
 
 sub render {
     my ( $self, $template, $tokens ) = @_;
@@ -52,7 +52,7 @@ Dancer::Template::Mason2 - Mason 2.x wrapper for Dancer
     };
   };
 
-Then, on C<views/foo.m>:
+Then, in C<views/foo.mc>:
 
     <%args>
     $.title
@@ -72,7 +72,7 @@ file:
 
     template: mason2
 
-The default template extension is ".m".
+The default template extension is ".mc".
 
 =head1 CONFIGURATION
 
