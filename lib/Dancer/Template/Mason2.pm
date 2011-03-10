@@ -15,7 +15,7 @@ sub init {
 
     $root_dir = $config->{comp_root} ||= setting('views') || $FindBin::Bin . '/views';
     $config->{data_dir} ||= $FindBin::Bin . "/data";
-    $config->{autoextend_request_path} ||= [];
+    $config->{autoextend_request_path} = 0 if !exists( $config->{autoextend_request_path} );
 
     $_engine = Mason->new(%$config);
 }
