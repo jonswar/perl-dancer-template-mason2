@@ -2,7 +2,9 @@ Revision history for Dancer-Template-Mason2
 
 ** denotes an incompatible change
 
-0.02  Feb 21, 2011
+0.02  Mar 10, 2011
+
+- Use new Mason 2.05 default file extensions (.mc) in documentation and tests
 
 0.01  Feb 21, 2011
 
