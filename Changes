@@ -4,7 +4,7 @@ Revision history for Dancer-Template-Mason2
 
 0.03  Mar 10, 2011
 
-- in 02-basic.t, touch template so it will be recompiled
+- in 02-basic.t, touch template so it will be recompiled, and switch to 'has' syntax
 
 0.02  Mar 10, 2011
 
