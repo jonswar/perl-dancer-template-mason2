@@ -2,6 +2,8 @@ Revision history for Dancer-Template-Mason2
 
 ** denotes an incompatible change
 
+0.04  Sep 23, 2011
+
 0.03  Sep 23, 2011
 
 - in 02-basic.t, touch template so it will be recompiled, and switch to 'has' syntax
