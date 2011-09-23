@@ -11,6 +11,9 @@ eval { $engine = Dancer::Template::Mason2->new };
 is $@, '', "Dancer::Template::Mason engine created";
 
 my $template = join( "/", $Bin, 'views', 'index.mc' );
+die "cannot find template" unless -f $template;
+utime( time, time, $template );    # touch template so it will be recompiled
+
 my $result = $engine->render(
     $template,
     {
