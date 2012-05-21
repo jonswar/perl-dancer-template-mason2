@@ -2,6 +2,8 @@ Revision history for Dancer-Template-Mason2
 
 ** denotes an incompatible change
 
+0.05  May 20, 2012
+
 0.04  May 20, 2012
 
 - convert slashes on Windows - RT #76934 (George Rogers)
