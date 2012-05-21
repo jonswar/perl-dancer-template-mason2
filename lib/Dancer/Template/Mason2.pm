@@ -27,6 +27,7 @@ sub render {
     my ( $self, $template, $tokens ) = @_;
 
     $template =~ s/^\Q$root_dir//;    # cut the leading path
+    $template =~ y|\\|/|;             # convert slashes on Windows
 
     my $content = $_engine->run( $template, %$tokens )->output;
     return $content;
