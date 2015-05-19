@@ -33,6 +33,17 @@ sub render {
     return $content;
 }
 
+sub view {
+    my ( $self, $view ) = @_;
+
+    my $views_dir = Dancer::App->current->setting('views');
+    my $tmpl_ext = $self->config->{extension} || $self->default_tmpl_ext();
+    my $view_path = sprintf( '%s/%s.%s', $views_dir, $view, $self->default_tmpl_ext );
+    return $view_path;
+}
+
+sub view_exists { return 1; }
+
 1;
 
 =pod
