@@ -4,7 +4,7 @@ Revision history for Dancer-Template-Mason2
 
 0.05  May 20, 2015
 
-- Allow dhandlers by letting Mason2 decide if the view file exists rather than Dancer.
+- Allow dhandlers by letting Mason2 decide if the view file exists rather than Dancer - https://github.com/jonswar/perl-dancer-template-mason2/pull/1 (Michael Scoltock)
 
 0.04  May 20, 2012
 
