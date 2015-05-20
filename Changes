@@ -2,7 +2,9 @@ Revision history for Dancer-Template-Mason2
 
 ** denotes an incompatible change
 
-0.05  May 20, 2012
+0.05  May 20, 2015
+
+- Allow dhandlers by letting Mason2 decide if the view file exists rather than Dancer.
 
 0.04  May 20, 2012
 
